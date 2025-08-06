@@ -1,0 +1,902 @@
+[
+  {
+    "ticket_id": "JIRA-1000",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "john.doe",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1001",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "alice.k",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "susan.lee",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "alice.k",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1002",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "alice.k",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1003",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "john.doe",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "john.doe",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1004",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "alice.k",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "alice.k",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "alice.k",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1005",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "john.doe",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1006",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "sre.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "sre.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1007",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "alice.k",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "mike.n",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "alice.k",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1008",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "alice.k",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1009",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "sre.bot",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1010",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "john.doe",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "john.doe",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1011",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "sre.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1012",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "alice.k",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1013",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "alice.k",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1014",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "sre.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "john.doe",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "sre.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1015",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1016",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "sre.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "sre.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "sre.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1017",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "alice.k",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "susan.lee",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "alice.k",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1018",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "john.doe",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "qa.bot",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "john.doe",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1019",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "john.doe",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1020",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "qa.bot",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1021",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "john.doe",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1022",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "john.doe",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1023",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "susan.lee",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1024",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "alice.k",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1025",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "alice.k",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "susan.lee",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "alice.k",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1026",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "john.doe",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1027",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "sre.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "john.doe",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "sre.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1028",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "qa.bot",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1029",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "john.doe",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1030",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "mike.n",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1031",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1032",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "alice.k",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1033",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "john.doe",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "susan.lee",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "john.doe",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1034",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "alice.k",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "alice.k",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1035",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "alice.k",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1036",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "sre.bot",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1037",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "qa.bot",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1038",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "sre.bot",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1039",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "mike.n",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1040",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "john.doe",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "john.doe",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1041",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "john.doe",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "john.doe",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1042",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "qa.bot",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1043",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "sre.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "john.doe",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "sre.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1044",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "susan.lee",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1045",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "susan.lee",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "mike.n",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "susan.lee",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  },
+  {
+    "ticket_id": "JIRA-1046",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "sre.bot",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "john.doe",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "sre.bot",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1047",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "mike.n",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "john.doe",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "mike.n",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1048",
+    "title": "High memory usage in API Gateway",
+    "description": "API Gateway on prod is consuming 95% memory leading to slow responses.",
+    "comments": [
+      {
+        "author": "john.doe",
+        "body": "Applied memory patch and restarted gateway."
+      },
+      {
+        "author": "alice.k",
+        "body": "No regressions found post-deployment."
+      }
+    ],
+    "assignee": "john.doe",
+    "fix_summary": "Memory patch v1.2.3 and service restart",
+    "severity": "SEV-2"
+  },
+  {
+    "ticket_id": "JIRA-1049",
+    "title": "Login timeout error in EU region",
+    "description": "Users in the EU are experiencing login timeouts starting from 3:00 AM UTC.",
+    "comments": [
+      {
+        "author": "qa.bot",
+        "body": "Restarted Auth Service resolved the issue."
+      },
+      {
+        "author": "alice.k",
+        "body": "Monitoring shows normal login activity post-restart."
+      }
+    ],
+    "assignee": "qa.bot",
+    "fix_summary": "Restart Auth Service",
+    "severity": "SEV-1"
+  }
+]

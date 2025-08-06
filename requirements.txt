@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain
+langchain-groq
+chromadb
+unstructured
+openai
+tiktoken
+python-multipart  # for file upload
